@@ -25,7 +25,7 @@ vector<string> separarCadenas(string cadena){
 	return resultado;
 }
 	
-bool id(string cadena){
+string TCompLex(string cadena){
 	char aux[];
 	bool resultado;
 	
@@ -69,8 +69,6 @@ int main(int argc, char *argv[]) {
 	cadenas=separarCadenas(texto);
 	for (size_t i=0 ; i<cadenas.size() ; i++){
 	string cad = cadenas[i];
-	cout<<cad<<"/";
-	//id(cad);
 	}
 	
 
